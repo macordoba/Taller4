@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="conceptosAvanzados.CalcularSesiones" %>
+<%@ page import="conceptosAvanzados.CalcularSeccion" %>
 <%@ page import="conceptosAvanzados.Operaciones" %>
 
 <%
@@ -8,7 +8,7 @@
 	int indice = 1;
 	String texto = "";
 	
-	CalcularSesiones objetoPruebas = new CalcularSesiones();
+	CalcularSeccion objetoPruebas = new CalcularSeccion();
 	objetoPruebas.setValores(valores);
 
 	objetoPruebas.CalcularSisones();
